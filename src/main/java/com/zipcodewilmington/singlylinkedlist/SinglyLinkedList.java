@@ -4,7 +4,7 @@ package com.zipcodewilmington.singlylinkedlist;
 /**
  * Created by leon on 1/10/18.
  */
-public class SinglyLinkedList{
+public class SinglyLinkedList {
     public Node root; //every linked list has a pointer to its root node,
     public int size; // every linked list stores the size of the linked list as an integer
 
@@ -42,13 +42,13 @@ public class SinglyLinkedList{
     public boolean remove(int data) { //looking for this piece of data. if found, we'll remove it
         Node thisNode = this.root; //to find the node we're looking for
         Node prevNode = null; //for a find operation, we always need the pointer to the previous node, as well. Starts
-                                //at null because there's no previous node to the root
+        //at null because there's no previous node to the root
 
         while (thisNode != null) {
-            if(thisNode.getData() == data) { //if this data is the data we're looking for
+            if (thisNode.getData() == data) { //if this data is the data we're looking for
                 prevNode.setNextNode(thisNode.getNextNode());//then we'll set previous node,next node pointer, to this nodes next node pointer.
-                        //in other words, we'll delete the prevNode from the list
-                this.setSize(this.getSize() -1);
+                //in other words, we'll delete the prevNode from the list
+                this.setSize(this.getSize() - 1);
                 return true;
             }
             prevNode = thisNode;//if thisNode is not the node we're looking for, advance the previous Node pointer to thisNode
@@ -58,9 +58,21 @@ public class SinglyLinkedList{
         return false;
     }
 
+    public boolean contains(int data) {
+       return true;
+    }
 
+    public void getElementAtSpecifiedIndex() {
 
+    }
 
+    public void copy() {
+
+    }
+
+    public void sort() {
+
+    }
 }
 
 
