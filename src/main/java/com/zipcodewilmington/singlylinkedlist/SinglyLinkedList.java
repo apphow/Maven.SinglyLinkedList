@@ -5,42 +5,107 @@ package com.zipcodewilmington.singlylinkedlist;
  * Created by leon on 1/10/18.
  */
 public class SinglyLinkedList<T> {
+    public class Node {
 
-    //private T element;
-    //private Node next;
+        private Node nextNode;
+        private int data;
 
+        private Node() {
 
-    private class Node {
-        private T element;
-        private Node next;
-
-        //constructor
-        public Node(T element) {
-            this.element = element;
         }
 
-        // Constructor
-        public Node(Node next, T element) {
-            this.element = element;
-            this.next = next;
+        Node(int val) {
+            data = val;
         }
 
-        public T getElement() {
-            return element;
+        Node(int val, Node next) {
+            data = val;
+            nextNode = next;
         }
 
-        public void setElement(T element) {
-            this.element = element;
+        private void setData(int val) {
+            this.data = val;
         }
 
-        public Node getNext() {
-            return next;
+        int getData() {
+            return this.data;
         }
 
-        public void setNext(Node next) {
-            this.next = next;
+        void setNextNode(Node n) {
+            this.nextNode = n;
         }
 
+        Node getNextNode() {
+            return this.nextNode;
+        }
+    }
+
+    public Node root;
+    public int size;
+
+    public SinglyLinkedList() {
+        Node root = new Node(0);
+        size = 0;
+    }
+
+    public void setSize(int a) {
+        this.size = a;
+    }
+
+    public int getSize() {
+        return this.size;
+    }
+
+    public Node add(int data) {
+        Node newNode = new Node(data, root);
+        this.root = newNode;
+        this.size++;
+        return newNode;
+    }
+
+    public Node find(int data) {
+        Node thisNode = this.root;
+
+        while (thisNode != null) {
+            if (thisNode.getData() == data)
+                return thisNode;
+            thisNode = thisNode.getNextNode();
+        }
+        return null;
+    }
+
+    public boolean remove(int data) {
+        Node thisNode = this.root;
+        Node prevNode = null;
+
+
+        while (thisNode != null) {
+            if (thisNode.getData() == data) {
+                prevNode.setNextNode(thisNode.getNextNode());
+
+                this.setSize(this.getSize() - 1);
+                return true;
+            }
+            prevNode = thisNode;
+            thisNode = thisNode.getNextNode();
+
+        }
+        return false;
+    }
+
+    public boolean contains(int data) {
+        return true;
+    }
+
+    public void getElementAtSpecifiedIndex() {
+
+    }
+
+    public void copy() {
+
+    }
+
+    public void sort() {
 
     }
 }

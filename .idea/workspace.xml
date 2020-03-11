@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4f0c6f35-1ac5-49ea-b41e-20445c07c5c6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/Node.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -152,23 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.getSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="singlylinkedlist" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="getSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SinglyLinkedListTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
@@ -180,6 +164,23 @@
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
       <option name="METHOD_NAME" value="remove" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest.removeElementByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="singlylinkedlist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.singlylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="removeElementByIndex" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -248,10 +249,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SinglyLinkedListTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.removeElementByIndex" />
         <item itemvalue="JUnit.SinglyLinkedListTest.remove" />
         <item itemvalue="JUnit.SinglyLinkedListTest.find" />
         <item itemvalue="JUnit.SinglyLinkedListTest.add" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.getSize" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +268,7 @@
       <updated>1515621994762</updated>
       <workItem from="1583664701503" duration="17689000" />
       <workItem from="1583686488889" duration="23000" />
-      <workItem from="1583868766143" duration="1229000" />
+      <workItem from="1583868766143" duration="8372000" />
     </task>
     <servers />
   </component>
@@ -275,39 +276,39 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="180" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1583677827747">
+    <state x="180" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1583870933686">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="180" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1583677827747" />
+    <state x="180" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1583870933686" />
     <state x="180" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.728@0.23.1280.728" timestamp="1583667265172" />
-    <state x="180" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.729@0.23.1280.729" timestamp="1583671956775" />
+    <state x="180" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1280.729@0.23.1280.729" timestamp="1583870337295" />
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583869796109">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1583869796109" />
-    <state width="1238" height="332" key="GridCell.Tab.0.bottom" timestamp="1583684926797">
+    <state width="1238" height="84" key="GridCell.Tab.0.bottom" timestamp="1583892105824">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="332" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583684926797" />
-    <state width="1238" height="332" key="GridCell.Tab.0.center" timestamp="1583684926796">
+    <state width="1238" height="84" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583892105824" />
+    <state width="1238" height="84" key="GridCell.Tab.0.center" timestamp="1583892105819">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="332" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583684926796" />
-    <state width="1238" height="332" key="GridCell.Tab.0.left" timestamp="1583684926796">
+    <state width="1238" height="84" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583892105819" />
+    <state width="1238" height="84" key="GridCell.Tab.0.left" timestamp="1583892105818">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="332" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583684926796" />
-    <state width="1238" height="332" key="GridCell.Tab.0.right" timestamp="1583684926797">
+    <state width="1238" height="84" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583892105818" />
+    <state width="1238" height="84" key="GridCell.Tab.0.right" timestamp="1583892105820">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="332" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583684926797" />
+    <state width="1238" height="84" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583892105820" />
     <state x="128" y="0" key="SettingsEditor" timestamp="1583677747066">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="128" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1583677747066" />
-    <state x="361" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583681748187">
+    <state x="361" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583872042380">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="361" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1583681748187" />
+    <state x="361" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1583872042380" />
   </component>
 </project>
